@@ -82,7 +82,6 @@ nav button svg {
     width: 79%;
     height: 0vh;
     position: absolute;
-    /* background-color: red; */
     top: 100%;
     background-color: #111;
     z-index: 9;
