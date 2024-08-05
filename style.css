@@ -42,7 +42,7 @@ nav h1 {
 .nav-part2 h4 {
     font-size: 0.73vw;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 2.6vw;
 }
 
@@ -86,37 +86,42 @@ nav button svg {
     border-bottom: 1px solid #fff;
 }
 
+
+
+
 #page1 {
     height: 100vh;
     width: 100%;
-    background-color: #111; 
+    background-color: #111;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
-#page1 h1{
+#page1 h1 {
     font-size: 8.5vw;
     text-transform: uppercase;
     font-weight: 900;
     line-height: 8.5vw;
 }
 
-#page1 h1 svg{
+#page1 h1 svg {
     height: 6vw;
-    width: 6vw;
-    background-color: #0DA34E;
     border-radius: 50%;
+    width: 6vw;
+    background-color: #0BA34E;
 }
 
 #page1 p {
     text-align: center;
     font-weight: 400;
     margin-top: 3vh;
+    font-size: 1vw;
 }
 
-#page1-something{
+#page1-something {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,18 +132,50 @@ nav button svg {
     font-size: 1vw;
     text-transform: lowercase;
     margin-top: 0.5vw;
-    padding: 5px 12px;
-    border: 1px solid #c4b4b4;
-    border-radius: 50px; 
+    padding: 9px 18px;
+    border: 1px solid #a6a6a6;
+    border-radius: 50px;
 }
 
-#page1-something h4:nth-last-child(2){
+#page1-something h4:nth-last-child(2) {
     border: none;
     padding: 2px;
+}
+
+#moving-div {
+    margin-top: 10vh;
+    position: absolute;
+    bottom: 3%;
+    white-space: nowrap;
+    padding: 1.2vw;
+    overflow: hidden;
+    width: 44%;
+}
+
+#moving-div .move {
+    display: inline-block;
+    animation-name: mobe;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#moving-div .move img {
+    height: 1vw;
+    margin: 0 1.2vw;
+}
+
+@keyframes mobe {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 #page2 {
     height: 100vh;
     width: 100%;
-    background-color: #111; 
+    background-color: #111;
 }
