@@ -14,8 +14,7 @@ function navAnimation() {
 
         })
         tl.to(".nav-part2 h5 span", {
-            y: 0,
-            // duration:0.3,
+            y:0,
             stagger: {
                 amount: 0.5
             }
@@ -39,4 +38,6 @@ function navAnimation() {
         })
     })
 }
+
+navAnimation()
 
