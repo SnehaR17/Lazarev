@@ -16,7 +16,6 @@ body {
 
 nav {
     position: fixed;
-    /* background-color: rgb(0, 255, 68); */
     display: flex;
     align-items: flex-start;
     height: 12vh;
@@ -43,13 +42,12 @@ nav h1 {
 .nav-part2 h4 {
     font-size: 0.73vw;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 2.6vw;
 }
 
 .nav-part2 h5 {
     margin-bottom: 1vw;
-    /* background-color: red; */
     display: none;
     overflow: hidden;
 }
