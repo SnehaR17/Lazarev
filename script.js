@@ -101,9 +101,9 @@ sections.forEach(function(elem){
 
 
 
-// navAnimation()
+navAnimation()
 
-// page2Animation()
+page2Animation()
 
-// page3VideoAnimation()
+page3VideoAnimation()
 
