@@ -390,17 +390,19 @@ nav button svg {
     position: relative;
     padding: 5vh 10.5vw;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
-#page5>button{
+#page5 button{
     background-color: #0BA34E;
-    padding: 0.9vw 2.56vw;
+    padding: 0.9vw 2.5vw;
     font-weight: 600;
     font-size: 1vw;
     border-radius: 50px;
     border: none;
+    position: sticky;
+    top: 15%;
 }
 
 #page5-right{
@@ -422,11 +424,22 @@ nav button svg {
     width: 100%;
     margin-top: 5vh;
     padding: 5vh 0;
-    border-top:  2px solid #fff;
 }
 
-#page5-content>h1{
+#page5-content .heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+#page5-content h1{
     font-size: 3vw;
+    font-weight: 500;
+}
+
+#page5-content i{
+    font-size: 2vw;
+    font-weight: 300;
+    color: #fff;   
 }
 
 #page5-content #flex{
@@ -449,8 +462,11 @@ nav button svg {
     justify-content: space-between;
     padding-top: 3vh;
     padding-bottom: 9vh;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
     /* background-color: red; */
     position: relative;
+    overflow: hidden;
+    border-top: 1px solid #333;
 
 }
 
@@ -462,7 +478,7 @@ nav button svg {
 }
 
 .page5-elem h3{
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     font-weight: 400;
     position: relative;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
@@ -479,13 +495,12 @@ nav button svg {
 .over{
     height: 100%;
     width: 100%;
-    background-color: #333 ;
+    background-color: #222;
     position: absolute;
     top: 0;
     transform: translateY(-100%);
     opacity: 0;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
-
 }
 
 .page5-elem:hover h3{
@@ -499,4 +514,28 @@ nav button svg {
 .page5-elem:hover .over{
     transform: translateY(0);
     opacity: 1;
+}
+
+.page5-elem:hover{
+    border-top: 2px solid #fff;
+}
+
+#page6{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
+
+summary::marker{
+    content: "";
+}
+
+.uiux{
+    border-top:  1px solid #333;
+    padding: 3vh 0;
+}
+
+.product{
+    border-top:  1px solid #333;
+    padding: 3vh 0;
 }
