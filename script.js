@@ -39,9 +39,6 @@ function navAnimation() {
     })
 }
 
-navAnimation()
-
-
 function page2Animation(){
     var rightElems = document.querySelectorAll(".right-elem")
 
@@ -67,9 +64,6 @@ function page2Animation(){
     })
 }
 
-page2Animation()
-
-
 function page3VideoAnimation(){
     var page3Center = document.querySelector(".page3-center")
     var video = document.querySelector("#page3 video")
@@ -92,4 +86,24 @@ function page3VideoAnimation(){
     })
 }
 
-page3VideoAnimation()
+var sections = document.querySelectorAll(".sec-right")
+
+sections.forEach(function(elem){
+    elem.addEventListener("mouseenter", function(){
+        elem.childNodes[3].style.opacity = 1
+        elem.childNodes[3].play()
+    })
+    elem.addEventListener("mouseleave", function(){
+        elem.childNodes[3].style.opacity = 0
+        elem.childNodes[3].load()
+    })
+})
+
+
+
+// navAnimation()
+
+// page2Animation()
+
+// page3VideoAnimation()
+
