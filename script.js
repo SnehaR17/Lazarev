@@ -99,11 +99,25 @@ sections.forEach(function(elem){
     })
 })
 
-gsap.to
+function page6Animations() {
+    gsap.from("#btm6-part2 h4", {
+        x: 0,
+        duration: 1,
+        scrollTrigger: {
+            trigger: "#btm6-part2",
+            scroller: "#main",
+            // markers:true,
+            start: "top 80%",
+            end: "top 10%",
+            scrub: true
+        }
+    })
+}
 
-// navAnimation()
+navAnimation()
 
-// page2Animation()
+page2Animation()
 
-// page3VideoAnimation()
+page3VideoAnimation()
 
+page6Animations()
