@@ -99,11 +99,11 @@ sections.forEach(function(elem){
     })
 })
 
+gsap.to
 
+// navAnimation()
 
-navAnimation()
+// page2Animation()
 
-page2Animation()
-
-page3VideoAnimation()
+// page3VideoAnimation()
 
