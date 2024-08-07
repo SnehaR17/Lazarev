@@ -520,12 +520,6 @@ nav button svg {
     border-top: 2px solid #fff;
 }
 
-#page6{
-    height: 100vh;
-    width: 100%;
-    background-color: #111;
-}
-
 summary::marker{
     content: "";
 }
@@ -538,4 +532,147 @@ summary::marker{
 .product{
     border-top:  1px solid #333;
     padding: 3vh 0;
+}
+
+#page6{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    padding: 13vh 15vw;
+}
+
+#page6>h1{
+    font-size: 5.6vw;
+    font-weight: 600;
+    color: #000;
+    /* background-color: red; */
+    line-height: 5.9vw;
+    padding-left: 23vh;
+    padding-right: 5vw;
+    padding-bottom: 10vh;
+    border-bottom: 2px solid #dadada;
+}
+
+#page6-content{
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8vh 0;
+}
+
+#page6-content #right-6{
+    width: 70%;
+}
+
+#page6-content #right-6 p{
+    font-size: 1.3vw;
+    color: #000;
+    margin-bottom: 5vh;
+    width: 80%;
+} 
+
+#blue-btn{
+    background-color: #4f5bff;
+    width: 15vw;
+    height: 3.5vw;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blue-btn h4{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.85vw;
+}
+
+#blue-btn h4 i{
+    font-size: 1.1vw;
+    font-weight: 100;
+    margin-left: 0.5vw;
+}
+
+#page6-bottom
+{
+    height: 44vh;
+    width: 100%;
+    /* background-color: red; */
+    border-top: 1px solid #dadada;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#btm6-part1{
+    border-right: 1px solid #dadada;
+    width: 31%;
+    /* background-color: red; */
+    height: 100%;
+}
+
+#btm6-part2{
+    border-right: 1px solid #dadada;
+    width: 27%;
+    /* background-color: red; */
+    height: 100%;
+}
+
+#btm6-part3{
+    border-right: 1px solid #dadada;
+    width: 16%;
+    /* background-color: red; */
+    height: 100%;
+}
+
+#btm6-part4{
+    border-right: 1px solid #dadada;
+    width: 18%;
+    /* background-color: red; */
+    height: 100%;
+}
+
+#btm6-part5{
+    width: 13%;
+    /* background-color: red; */
+    height: 100%;
+}
+
+.btm6-parts{
+    padding: 3vh 0.7vw;
+}
+
+
+.btm6-parts h5{
+    color: #000;
+    font-weight: 500;
+    font-size: 0.9vw;
+    margin-bottom: 4vh;
+}
+
+
+.btm6-parts h4{
+    background-color: #111;
+    width: 94%;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-bottom: 0.3vh;
+    display: flex;
+    align-items: center;
+    font-size: 0.85vw;
+    font-weight: 500;
+}
+
+.btm6-parts h4 span{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: #333;
+    padding: 0.5vw;
+    border-radius: 50%;
+    margin-right: 1vw;
 }
