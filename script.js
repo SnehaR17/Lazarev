@@ -175,6 +175,30 @@ function page6Animations() {
             scrub: true
         }
     })
+    gsap.from("#btm6-part3 h4", {
+        x: 0,
+        duration: 2,
+        scrollTrigger: {
+            trigger: "#btm6-part3",
+            scroller: "#main",
+            // markers:true,
+            start: "top 80%",
+            end: "top 10%",
+            scrub: true
+        }
+    })
+    gsap.from("#btm6-part4 h4", {
+        x: 0,
+        duration: 2,
+        scrollTrigger: {
+            trigger: "#btm6-part4",
+            scroller: "#main",
+            // markers:true,
+            start: "top 80%",
+            end: "top 10%",
+            scrub: true
+        }
+    })
 }
 
 locomotiveAnimation()
