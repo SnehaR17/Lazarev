@@ -18,12 +18,15 @@ nav {
     position: fixed;
     display: flex;
     align-items: flex-start;
-    height: 12vh;
+    height: 10vh;
     width: 100%;
-    padding: 2vw 10.4vw;
+    padding: 1vw 7vw;
     justify-content: space-between;
     background-color: #111;
     z-index: 10;
+    padding-left: 6.2vw;
+    padding-right: 6.2vw;
+
 }
 
 nav h1 {
@@ -40,10 +43,9 @@ nav h1 {
 }
 
 .nav-part2 h4 {
-    font-size: 0.73vw;
+    font-size: 0.8vw;
     text-transform: uppercase;
-    font-weight: 5
-    00;
+    font-weight: 500;
     margin-bottom: 2.6vw;
 }
 
@@ -64,7 +66,7 @@ nav button {
     background-color: #0BA34E;
     display: flex;
     align-items: center;
-    padding: 14px 20px;
+    padding: 10px 20px;
     font-size: 0.85vw;
     text-transform: uppercase;
     font-weight: 700;
@@ -78,10 +80,10 @@ nav button svg {
 }
 
 #nav-bottom {
-    width: 79%;
+    width: 88%;
     height: 0vh;
     position: absolute;
-    top: 100%;
+    top: 105%;
     background-color: #111;
     z-index: 9;
     border-bottom: 1px solid #fff;
@@ -653,7 +655,7 @@ summary::marker{
 
 .btm6-parts h4{
     background-color: #111;
-    width: 90%;
+    width: 98%;
     padding: 5px 10px;
     border-radius: 50px;
     margin-bottom: 0.3vh;
@@ -694,8 +696,100 @@ summary::marker{
     transform: translateX(50%);
 }
 
+#btm6-part3 h4:nth-child(2){
+    transform: translateX(0);
+}
+#btm6-part3 h4:nth-child(3){
+    transform: translateX(15%);
+}
+
+#btm6-part4 h4:nth-child(2){
+    transform: translateX(0);
+}
+#btm6-part4 h4:nth-child(3){
+    transform: translateX(15%);
+}
+#btm6-part4 h4:nth-child(4){
+    transform: translateX(30%);
+}
+
 #page7{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    background-color: #333;
+    background-color: #111;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    padding-left: 12vh;
+}
+
+#page7-left{
+    width: 40%;
+}
+
+#page7-left h4{
+    font-size: 1vw;
+    font-weight: 500;
+    padding-top: 19vh;
+}
+
+#page7-left h2{
+    font-size: 5.8vh ;
+    font-weight: 600;
+    padding-top: 5vh;
+    line-height: 1.3;
+}
+
+#page7-left p{
+    font-size: 1.8vh ;
+    font-weight: 500;
+    padding-top: 11vh;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    word-spacing: 0.1px;
+    width: 70%;
+}
+
+#page7-right{
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 19vh;
+    padding-right: 11vh
+}
+
+#page7-right h5{
+    font-size: 1vw;
+    font-weight: 400 ;
+    padding-top: 11vh;
+    border-top: 1px solid #333;
+}
+
+#page7-right p{
+    padding-top: 4vh;
+    padding-right: 8.4vh;
+    font-size: 1.3vw;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    word-spacing: 0.1px;
+}
+
+/* #page7-right img{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+} */
+
+#page7-right .name{
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding-top: 6vh;
+}
+
+#page7-right .position{
+    font-size: 0.9vw;
+    font-weight: 400;
+    padding-top: 0.4vh;
+    padding-bottom: 11vh; 
 }
