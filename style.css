@@ -83,7 +83,7 @@ nav button svg {
     width: 88%;
     height: 0vh;
     position: absolute;
-    top: 105%;
+    top: 100%;
     background-color: #111;
     z-index: 9;
     border-bottom: 1px solid #fff;
@@ -721,10 +721,12 @@ summary::marker{
     position: sticky;
     justify-content: space-between;
     padding-left: 12vh;
+    position: relative;
 }
 
 #page7-left{
     width: 40%;
+    position: sticky;
 }
 
 #page7-left h4{
@@ -752,16 +754,18 @@ summary::marker{
 
 #page7-right{
     width: 52%;
+    height: 133vh;
     display: flex;
     flex-direction: column;
     padding-top: 19vh;
-    padding-right: 11vh
+    padding-right: 11vh;
+
 }
 
 #page7-right h5{
     font-size: 1vw;
     font-weight: 400 ;
-    padding-top: 11vh;
+    padding-top: 7vh;
     border-top: 1px solid #333;
 }
 
@@ -774,12 +778,14 @@ summary::marker{
     word-spacing: 0.1px;
 }
 
-/* #page7-right img{
-    height: 10px;
-    width: 10px;
+#page7-right img{
+    height: 10vh;
+    width: 12%;
     border-radius: 50%;
-    background-color: #fff;
-} */
+    margin-bottom: 5.5vh;
+    margin-right: 1.5vh;
+    padding: 0.8vh;
+} 
 
 #page7-right .name{
     font-size: 1.2vw;
@@ -792,4 +798,9 @@ summary::marker{
     font-weight: 400;
     padding-top: 0.4vh;
     padding-bottom: 11vh; 
+}
+
+.client-info{
+    display: flex;
+    align-items: center;
 }
