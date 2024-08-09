@@ -201,15 +201,15 @@ function page6Animations() {
     })
 }
 
-locomotiveAnimation()
+// locomotiveAnimation()
 
-loadingAnimation()
+// loadingAnimation()
 
-navAnimation()
+// navAnimation()
 
-page2Animation()
+// page2Animation()
 
-page3VideoAnimation()
+// page3VideoAnimation()
 
 page6Animations()
 
