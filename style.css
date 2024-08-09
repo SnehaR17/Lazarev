@@ -722,11 +722,13 @@ summary::marker{
     justify-content: space-between;
     padding-left: 12vh;
     position: relative;
+    border-bottom: 1px solid #333;
 }
 
 #page7-left{
     width: 40%;
     position: sticky;
+    top: 0;
 }
 
 #page7-left h4{
@@ -804,3 +806,46 @@ summary::marker{
     display: flex;
     align-items: center;
 }
+
+#page8{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    position: relative;
+}
+
+#page8 #background img{
+    width: 100%;
+    height: 69vh;
+    opacity: 0.5;
+}
+
+#page8-left{
+    width: 60%;
+    top: 0;
+    display: flex;
+    position: absolute;
+    padding-top: 7vh;
+    padding-left: 10vh;
+}
+
+#page8 #page8-left img{
+    height: 14vh;
+    width: 14vh;    
+}
+
+#page8 #page8-left h1{
+    font-size: 16vh;
+    line-height: 18vh;
+    font-weight: 600;
+}
+
+#page8-right{
+    position: absolute;
+    top: 0;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    
