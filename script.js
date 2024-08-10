@@ -207,9 +207,9 @@ function page6Animations() {
 
 // navAnimation()
 
-// page2Animation()
+page2Animation()
 
-// page3VideoAnimation()
+page3VideoAnimation()
 
 page6Animations()
 
