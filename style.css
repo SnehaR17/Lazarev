@@ -975,7 +975,7 @@ summary::marker{
     display: flex;
     flex-direction: row;
     width: 100%;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #333;
 }
 
 #page10-content .que-no{
@@ -996,11 +996,11 @@ summary::marker{
 }
 
 #page10-content .question{
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     font-weight: 600;
     padding-bottom: 5vh;
     padding-top: 6vh;
-    width: 85%;
+    width: 90%;
 }
 
 #page10-content .answer{
@@ -1014,5 +1014,70 @@ summary::marker{
     font-weight: 300;
     padding-top: 4vh;
     padding-left: 24vh;
-
 }
+
+/* #page10-content .que-no, .question, .arrow :hover{
+    cursor: pointer;
+} */
+
+#page11{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
+
+#page11-heading{
+    font-size: 3.9vw;
+    font-weight: 600;
+    padding-left: 58vh;
+    padding-right: 25vh;
+    padding-bottom: 13vh;
+    padding-top: 17vh;
+    line-height: 5vw;
+    border-bottom: 1px solid #333;
+    position: relative;
+}
+
+#page11-right{
+    padding-left: 30vw;
+    padding-top: 13vh;
+    padding-bottom: 15vh;
+    border-bottom: 1px solid #333 ;
+    display: flex;
+    align-items: first baseline;
+}
+
+#page11-right h3{
+    font-size: 2vh;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 2vh; 
+    display: inline-block;
+    /* background-color: #0BA34E; */
+    position: absolute;
+}
+
+#page11-right span{
+    display: inline-block;
+    padding-right: 30vh;
+}
+
+#page11-right p{
+    font-size: 4vh;
+    width: 120vh;
+    /* background-color: #4f5bff; */
+}
+
+#page12{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+}
+
+#page12 #page12-right img{
+    height: 82vh;
+    padding-top: 7vh;
+}
+
