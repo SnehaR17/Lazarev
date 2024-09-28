@@ -205,7 +205,7 @@ locomotiveAnimation()
 
 loadingAnimation()
 
-navAnimation()
+// navAnimation()
 
 page2Animation()
 
