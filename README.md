@@ -52,6 +52,5 @@ The project uses CSS and JavaScript to create a variety of animations and intera
 - **Original Design**: The original design inspiration comes from the Lazarev website.
 - **Libraries Used**: Any external libraries or frameworks used (if any) should be credited here.
 
----
 
 
