@@ -36,25 +36,6 @@ The Lazarev Website Clone is a front-end project aimed at recreating the visuall
 1. Open the `index.html` file in your preferred web browser.
 2. Alternatively, you can use a live server extension (e.g., Live Server for VS Code) to serve the project.
 
-## Project Structure
-```
-lazarev-clone/
-│
-├── index.html         # Main HTML file
-├── css/
-│   ├── styles.css     # Main CSS file
-│   ├── animations.css # CSS animations
-│
-├── js/
-│   ├── main.js        # Main JavaScript file
-│   ├── animations.js  # JavaScript for animations
-│
-├── assets/
-│   ├── images/        # Image assets
-│   ├── fonts/         # Font files
-│
-└── README.md          # Project documentation
-```
 
 ## Features
 - **Modern Design**: Replicates the sleek, modern design of the Lazarev website.
@@ -67,46 +48,7 @@ The project uses CSS and JavaScript to create a variety of animations and intera
 - **Hover Effects**: Enhances elements when users hover over them.
 - **Scroll Animations**: Elements animate into view as the user scrolls down the page.
 - **Menu Interactions**: Dynamic and interactive navigation menus.
-
-### Example of a CSS Animation
-```css
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.element {
-  animation: fadeIn 2s ease-in-out;
-}
-```
-
-### Example of a JavaScript Interaction
-```javascript
-document.querySelector('.menu-button').addEventListener('click', function() {
-    document.querySelector('.nav-menu').classList.toggle('open');
-});
-```
-
-## Responsiveness
-The project employs responsive design techniques to ensure it looks great on all devices, including:
-- **Media Queries**: CSS media queries for different screen sizes.
-- **Flexible Layouts**: Fluid grids and flexible images.
-
-### Example of a Media Query
-```css
-@media (max-width: 768px) {
-  .nav-menu {
-    display: none;
-  }
-  .nav-menu.open {
-    display: block;
-  }
-}
-```
+  
 
 ## Credits
 - **Original Design**: The original design inspiration comes from the Lazarev website.
@@ -114,4 +56,4 @@ The project employs responsive design techniques to ensure it looks great on all
 
 ---
 
-This documentation provides a comprehensive guide to understanding, installing, and running your Lazarev website clone project.
+
