@@ -201,11 +201,11 @@ function page6Animations() {
     })
 }
 
-// locomotiveAnimation()
+locomotiveAnimation()
 
-// loadingAnimation()
+loadingAnimation()
 
-// navAnimation()
+navAnimation()
 
 page2Animation()
 
