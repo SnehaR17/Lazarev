@@ -6,11 +6,9 @@
 3. [Getting Started](#getting-started)
    - [Installation](#installation)
    - [Running the Project](#running-the-project)
-4. [Project Structure](#project-structure)
-5. [Features](#features)
-6. [Animations and Interactivity](#animations-and-interactivity)
-7. [Responsiveness](#responsiveness)
-8. [Credits](#credits)
+4. [Features](#features)
+5. [Animations and Interactivity](#animations-and-interactivity)
+6. [Credits](#credits)
 
 ## Project Overview
 The Lazarev Website Clone is a front-end project aimed at recreating the visually appealing and interactive design of the original Lazarev website. Built using HTML, CSS, and JavaScript, this clone emphasizes animations and modern design elements to enhance user experience.
